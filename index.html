@@ -9,110 +9,84 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <style>
-  body {
-    font: 20px Montserrat, sans-serif;
-    line-height: 1.8;
-    color: #f5f6f7;
-  }
-  p {font-size: 16px;}
-  .margin {margin-bottom: 45px;}
-  .bg-1 {
-    background-color: #1abc9c; /* Green */
-    color: #ffffff;
-  }
-  .bg-2 {
-    background-color: #474e5d; /* Dark Blue */
-    color: #ffffff;
-  }
-  .bg-3 {
-    background-color: #ffffff; /* White */
-    color: #555555;
-  }
-  .bg-4 {
-    background-color: #2f2f2f; /* Black Gray */
-    color: #fff;
-  }
-  .container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
-  }
-  .navbar {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border: 0;
-    border-radius: 0;
-    margin-bottom: 0;
-    font-size: 12px;
-    letter-spacing: 5px;
-  }
-  .navbar-nav  li a:hover {
-    color: #1abc9c !important;
-  }
-  </style>
-</head>
-<body>
 
+  <link href="css/custom.css" rel="stylesheet">
+</head>
+
+<body>
 <!-- Navbar -->
 <nav class="navbar navbar-default">
   <div class="container">
     <div class="navbar-header">
-      <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button> -->
       <a class="navbar-brand" href="index.html">HOME</a>
-      <!-- <img src="img/logo.svg" class="logo" style="display:inline" alt="Owen_Yang" width="31.5" height="47.3"> -->
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">WHO</a></li>
-        <li><a href="#">WHAT</a></li>
-        <li><a href="#">WHERE</a></li>
+        <li><a href="#info">INFO</a></li>
+        <li><a href="#about-me">ABOUT ME</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
-<!-- First Container -->
-<div class="container-fluid bg-1 text-center">
-  <h3 class="margin">Welcome to my Website</h3>
-  <img src="img/headshot.png" class="img-responsive img-circle margin" style="display:inline" alt="Owen_Yang" width="350" height="350">
-  <h3>Owen Yang</h3>
+<!-- Weclome Container -->
+<div class="container-fluid banner text-center">
+  <img src="img/headshot.png" class="img-responsive img-circle margin" id="info" style="display:inline" alt="Owen_Yang" width="350" height="350">
 </div>
 
 
-<!-- Second Container -->
-<div class="container-fluid bg-2 text-center">
-  <h3 class="margin">About Me</h3>
-  <p>I am a B.S. Computer Science and Engineering student at UC Irvine, exploring skills, technologies, and industries that are creating solutions to help the community, the environment, and the world we live in. I am a software engineer, a maker, and a DIY enthusiast. I love to build and create projects that help others and the environment. Many of my passion projects include making IoT projects that can have an environmental impact. I currently work at the UCI Advanced Power and Energy Program as an undergraduate researcher, where I work on zero emissions projects that involves a big data processing and software development. I also help lead the UCI TIPPERS: Zero Waste Anteaters on a award-winning project called ZotBins, a smart IoT management infrastructure for zero waste. </p>
-  <!-- <a href="#" class="btn btn-default btn-lg">
-    <span class="glyphicon glyphicon-search"></span> Search
-  </a> -->
+<!-- Short Bio Container -->
+<div class="container-fluid bio text-center">
+  <h3 class="margin" id="about-me">Hi, I'm Owen.</h3>
+  <p>
+    I am a <b>Software Devloper</b>, a <b>Computer Engineer</b>, and a <b>Maker</b>.
+    </br></br>
+    I am about to graduate from the University of California, Irvine with a B.S. Computer Science and Engineering Degree in June 2020 and am currently in the market for any software related postions.
+    </br></br>
+    In my spare time, I like to build and create IoT or data-related projects, such as ZotBins and ZotPonics, that help others and the environment. Some of these projects are used by over a thousand UCI students and have helped organizations such as UCI Housing, UCI Dining, and UCI Facillities Mangement.
+    </br></br></p>
 </div>
 
-<!-- Third Container (Grid) -->
-<div class="container-fluid bg-3 text-center">
-  <h3 class="margin">Projects</h3><br>
+<!-- Projects Container (Grid) -->
+<div class="container-fluid projects text-center">
+  <h3 class="margin" id="projects">PROJECTS</h3><br>
   <div class="row">
+
     <div class="col-sm-4">
-      <p></p>
-      <img src="birds1.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+      <a href="https://zotbins.github.io">
+        <img src="img/zotbins.jpg" class="img-responsive margin" style="width:25rem" alt="ZotBins Icon">
+      </a>
+      <a href="https://zotbins.github.io">
+        <h3 class="project-title">ZotBins</h3><br>
+      </a>
+      <p>ZotBins is system of Smart Waste Bins with a Web-based User Interface to collect real-time waste data. Through IoT, ZotBins is able to use waste data to encourage zero waste practices from a behavioral approach while also demonstrating use of quantifiable data to improve waste management systems holistically.</p>
     </div>
+
     <div class="col-sm-4">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="birds2.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+      <a href="https://github.com/Senior-Design-ZotPonics">
+        <img src="img\zotponics.JPG" class="img-responsive margin" style="width:25rem" alt="ZotPonics">
+      </a>
+      <a href="https://github.com/Senior-Design-ZotPonics">
+        <h3 class="project-title">ZotPonics</h3><br>
+      </a>
+      <p>ZotPonics is a Smart and Automated Hydroponics system for Sustainable Agriculture. With a system of sensors, pumps, lights, and other peripherials that are controlled by a mobile-based user-interface people can  </p>
     </div>
+
     <div class="col-sm-4">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="birds3.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+      <a href="https://github.com/okyang/Barcode_Waste_Sorter">
+        <img src="img/app_demo.gif" class="img-responsive margin" style="height:25rem" alt="Barcode Waste Sorter">
+      </a>
+      <a href="https://github.com/okyang/Barcode_Waste_Sorter">
+        <h3 class="project-title">Barcode Waste Sorter</h3><br>
+      </a>
+      <p>Have you ever been in a situation where you have trash, but you don't know how you should throw it away? This app allows users to scan barcodes of certain items that they want to throw away and the app will return detailed instructions of how to properly dispose of it!</p>
     </div>
   </div>
 </div>
 
 <!-- Footer -->
-<footer class="container-fluid bg-4 text-center">
+<footer class="container-fluid footer text-center">
   <p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p>
 </footer>
 
