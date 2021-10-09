@@ -24,6 +24,11 @@
 - [FAQ and support](#faq-and-support)
 - [Credits and contributions](#credits)
 
+# How to run Locally 
+1. Setup Jekyll by following the offical [doc](https://jekyllrb.com/docs/)
+2. Run `bundle exec jekyll serve`
+3. Access at `http://localhost:4000`
+
 # Features
 
 __Check out [*What's New?*](https://beautifuljekyll.com/updates/) to see the latest features.__
