@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: okyang.github.io
-Token: b828ceb577c1d3cbdae15ae39a5a6123a7de9c3f5f7d62bbaf04426ab95b29f6
