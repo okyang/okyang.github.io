@@ -5,7 +5,7 @@ title: Barcode Waste Sorter
 
 Have you ever been in a situation where you have trash, but you don't know how you should throw it away? This app allows users to scan barcodes of certain items that they want to throw away and the app will return detailed instructions of how to properly dispose of it!
 
-[Visit the Project Page](https://github.com/okyang/Barcode_Waste_Sorter)
+[**Visit the Project Page 🔧**](https://github.com/okyang/Barcode_Waste_Sorter)
 
 [![thumbnail](/assets/img/project_thumbnails/app_demo.gif)](https://github.com/okyang/Barcode_Waste_Sorter)
 

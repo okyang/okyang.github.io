@@ -7,6 +7,6 @@ ZotPonics is a Smart and Automated Hydroponics system for Sustainable Agricultur
 
 This project was created during my 4th year at UCI and combined my passion for gardening and robotics. It was really fun to create a working hydroponics project.
 
-[Visit the Project Page](https://github.com/Senior-Design-ZotPonics)
+[**Visit the Project Page 🔧**](https://github.com/Senior-Design-ZotPonics)
 
 [![thumbnail](/assets/img/project_thumbnails/zotponics.JPG)](https://github.com/Senior-Design-ZotPonics)
